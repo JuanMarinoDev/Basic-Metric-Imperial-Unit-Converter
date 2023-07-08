@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+div {
+  overflow: auto;
+}
+
 body {
   font-family: 'Inter', sans-serif;
 }
@@ -53,7 +57,6 @@ Current Fonts Weights in use:
 
 /* --------  Main Container  -------- */
 #main-container {
-  overflow: auto;
   background: #6943FF;
   height: 40%;
   text-align: center;
@@ -68,29 +71,69 @@ Current Fonts Weights in use:
 
 .unit-container {
   border: 2px solid #B295FF;
+  background-color: transparent;
+  color: #FFF;
   border-radius: 4px;
-  width: 70px;
+  width: 80%;
+  max-width: 375px;
   height: 50px;
   margin: 10px auto 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-unit {
-  color: #fff;
-  font-weight: 700; /*DELETE because its at default*/
-  font-size: 2em; /*DELETE because its at default*/
+  display: block;
+  font-weight: 700;
+  font-size: 2em;
+  padding: 0 10px;
+  text-align: center;
 }
 
 #convert-btn {
   margin-top: 15px;
-  background-color: #fff;
+  background-color: #FFF;
   color: #3D3D3D;
   border: none;
   border-radius: 3px;
   font-size: 1em;
   font-weight: 500;
   padding: 8px 13px;
+  cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
+/* --------  Second Container  -------- */
+#second-container {
+  background-color: #F4F4F4;
+  height: 60%;
+}
+
+span {
+  display: none;
+}
+
+.length-container {
+  background-color: #FFF;
+  border-radius: 4px;
+  height: 75px;
+  width: 90%;
+  margin: 70px auto 0 auto;
+  text-align: center;
+}
+
+.converted-title {
+  margin-top: 7px;
+  color: #5A537B;
+  font-weight: 600;
+  font-size: 1.05em;
+}
+
+.converted-length {
+  margin-top: 5px;
+  font-size: 0.85em;
+  font-weight: 400; /*DELETE because this is the default style*/
+  line-height: 1.2;
+}
