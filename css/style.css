@@ -133,10 +133,15 @@ span {
   font-size: 1.05em;
 }
 
-.converted-length {
-  color: #353535;
+.converted-length,
+.converted-volume {
   margin-top: 5px;
-  font-size: 0.85em;
+}
+
+.meters, .feet,
+.liters, .gallons {
+  color: #353535;
+  font-size: 0.88em;
   font-weight: 400; /*DELETE because this is the default style*/
-  line-height: 1.2;
+  line-height: 1.3;
 }
