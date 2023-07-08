@@ -24,3 +24,36 @@ ul {
 a {
   text-decoration: none;
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+/* --------  Font Management  -------- 
+Current Fonts Weights in use:
+0
+
+100-900
+*/
+
+
+/* --------  Wrapper  -------- */
+#wrapper {
+  border: 2px solid #ecebeb;
+  height: 500px;
+  max-width: 500px;
+  margin: 50px auto 50px auto;
+}
+
+/* --------  Main Container  -------- */
+#main_container {
+  overflow: auto;
+  background: #6943FF;
+  height: 40%;
+  text-align: center;
+}
+.title {
+  margin-top: 60px;
+  color: #F4F4F4;
+  font-weight: 700;
+  font-size: 1.5em;
+}
