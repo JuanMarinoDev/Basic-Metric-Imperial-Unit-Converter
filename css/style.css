@@ -115,12 +115,14 @@ span {
   display: none;
 }
 
-.length-container {
+/*--- Conversion Containers ---*/
+.length-container,
+.volume-container {
   background-color: #FFF;
   border-radius: 4px;
   height: 75px;
   width: 90%;
-  margin: 70px auto 0 auto;
+  margin: 50px auto 0 auto;
   text-align: center;
 }
 
@@ -132,6 +134,7 @@ span {
 }
 
 .converted-length {
+  color: #353535;
   margin-top: 5px;
   font-size: 0.85em;
   font-weight: 400; /*DELETE because this is the default style*/
