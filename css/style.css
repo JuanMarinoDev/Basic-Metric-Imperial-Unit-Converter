@@ -2,6 +2,13 @@
 // -------------------  PROJECT  -------------------
 // ------------------------------------------------- */
 
+/* NOTES ----> IMPORTANT!*/
+/*
+When project is finished:
+Search DELETE - and delete extra or no-needing rules
+Search font-weight: and leave ONLY the ones needed and in use in html
+*/
+
 /* --------  Defaults  -------- */
 *,
 *:before,
@@ -45,15 +52,45 @@ Current Fonts Weights in use:
 }
 
 /* --------  Main Container  -------- */
-#main_container {
+#main-container {
   overflow: auto;
   background: #6943FF;
   height: 40%;
   text-align: center;
 }
+
 .title {
-  margin-top: 60px;
+  margin-top: 15px;
   color: #F4F4F4;
   font-weight: 700;
   font-size: 1.5em;
 }
+
+.unit-container {
+  border: 2px solid #B295FF;
+  border-radius: 4px;
+  width: 70px;
+  height: 50px;
+  margin: 10px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-unit {
+  color: #fff;
+  font-weight: 700; /*DELETE because its at default*/
+  font-size: 2em; /*DELETE because its at default*/
+}
+
+#convert-btn {
+  margin-top: 15px;
+  background-color: #fff;
+  color: #3D3D3D;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 8px 13px;
+}
+
