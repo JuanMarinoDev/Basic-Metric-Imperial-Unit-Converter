@@ -64,9 +64,11 @@ Current Fonts Weights in use:
 
 .title {
   margin-top: 15px;
+  margin: 15px auto 0 auto;
   color: #F4F4F4;
   font-weight: 700;
   font-size: 1.5em;
+  max-width: 320px;
 }
 
 .unit-container {
@@ -98,13 +100,6 @@ Current Fonts Weights in use:
 }
 
 
-
-
-
-
-
-
-
 /* --------  Second Container  -------- */
 #second-container {
   background-color: #F4F4F4;
@@ -115,6 +110,7 @@ span {
   display: none;
 }
 
+
 /*--- Conversion Containers ---*/
 .length-container,
 .volume-container,
@@ -123,6 +119,7 @@ span {
   border-radius: 4px;
   height: 75px;
   width: 90%;
+  max-width: 350px;
   margin: 18px auto 0 auto;
   text-align: center;
 }
