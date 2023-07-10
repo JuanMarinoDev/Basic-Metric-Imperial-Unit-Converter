@@ -2,8 +2,6 @@
 ---------------------    RESPONSIVE    ---------------------
 ------------------------------------------------------------ */
 
-
-
 /*____________________________________
 -------    Mobile L (425px)    -------
 --------------------------------------*/
@@ -16,6 +14,45 @@
   .unit-container,
   #convert-btn {
     margin-top: 22px;
+  }
+}
+
+
+
+/*_____________________________________
+-------    Mobile XL (500px)    -------
+--------------------------------------*/
+@media all and (min-width: 500px) {
+  /* --------  Wrapper  -------- */
+  #wrapper {
+    height: 570px;
+  }
+  /* --------  Main Container  -------- */
+  .title {
+    margin-top: 25px;
+    font-size: 1.6em;
+  }
+  .unit-container {
+    border-width: 3px;
+    height: 60px;
+    margin-top: 25px;
+    font-size: 2.3em;
+    font-weight: 800;
+  }
+  #convert-btn {
+    padding: 10px 25px;
+  }
+  /* --------  Second Container  -------- */
+  /*--- Conversion Containers ---*/
+  .length-container,
+  .volume-container,
+  .mass-container {
+    height: 85px;
+    max-width: 430px;
+    margin-top: 21px;
+  }
+  .converted-title {
+    margin-top: 10px;
   }
 }
 
@@ -62,95 +99,98 @@
 
 
 
+
+
+
+
+
+
 /*____________________________________
 -------    Mobile L (425px)    -------
 --------------------------------------*/
-@media all and (min-width: 425px) {
-    /* --------  Wrapper  -------- */
-    #wrapper {
-      /* border: 2px solid #ecebeb;
-      height: 500px;
-      max-width: 500px;
-      margin: 50px auto 50px auto; */
-    }
-    /* --------  Main Container  -------- */
-    #main-container {
-      /* background: #6943FF;
-      height: 40%;
-      text-align: center; */
-    }
-    .title {
-      /* margin-top: 22px;
-      margin: 15px auto 0 auto;
-      color: #F4F4F4;
-      font-weight: 700;
-      font-size: 1.5em;
-      max-width: none; */
-    }
-    .unit-container {
-      /* border: 2px solid #B295FF;
-      background-color: transparent;
-      color: #FFF;
-      border-radius: 4px;
-      width: 80%;
-      max-width: 375px;
-      height: 50px;
-      margin: 22px auto 0 auto;
-      display: block;
-      font-weight: 700;
-      font-size: 2em;
-      padding: 0 10px;
-      text-align: center; */
-    }
-    #convert-btn {
-      /* margin-top: 22px;
-      background-color: #FFF;
-      color: #3D3D3D;
-      border: none;
-      border-radius: 3px;
-      font-size: 1em;
-      font-weight: 500;
-      padding: 8px 13px;
-      cursor: pointer; */
-    }
-    /* --------  Second Container  -------- */
-    #second-container {
-      /* background-color: #F4F4F4;
-      height: 60%; */
-    }
-    span {
-      /* display: none; */
-    }
-  
-    /*--- Conversion Containers ---*/
-    .length-container,
-    .volume-container,
-    .mass-container {
-      /* background-color: #FFF;
-      border-radius: 4px;
-      height: 75px;
-      width: 90%;
-      max-width: 350px;
-      margin: 18px auto 0 auto;
-      text-align: center; */
-    }
-    .converted-title {
-      /* margin-top: 7px;
-      color: #5A537B;
-      font-weight: 600;
-      font-size: 1.05em; */
-    }
-    .converted-length,
-    .converted-volume,
-    .converted-mass {
-      /* margin-top: 5px; */
-    }
-    .meters, .feet,
-    .liters, .gallons,
-    .kilograms, .pounds {
-      /* color: #353535;
-      font-size: 0.88em;
-      font-weight: 400; DELETE because this is the default style
-      line-height: 1.3; */
-    }
+@media all and (min-width: 500px) {
+  /* --------  Wrapper  -------- */
+  #wrapper {
+    /* border: 2px solid #ecebeb;
+    height: 570px;
+    max-width: 500px;
+    margin: 50px auto 50px auto; */
   }
+  /* --------  Main Container  -------- */
+  #main-container {
+    /* background: #6943FF;
+    height: 40%;
+    text-align: center; */
+  }
+  .title {
+    /* margin: 25px auto 0 auto;
+    color: #F4F4F4;
+    font-weight: 700;
+    font-size: 1.6em;
+    max-width: none; */
+  }
+  .unit-container {
+    /* border: 3px solid #B295FF;
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 4px;
+    width: 250px;
+    height: 60px;
+    margin: 25px auto 0 auto;
+    display: block;
+    font-weight: 800;
+    font-size: 2.3em;
+    padding: 0 10px;
+    text-align: center; */
+  }
+  #convert-btn {
+    /* margin-top: 22px;
+    background-color: #FFF;
+    color: #3D3D3D;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 10px 25px;
+    cursor: pointer; */
+  }
+  /* --------  Second Container  -------- */
+  #second-container {
+    /* background-color: #F4F4F4;
+    height: 60%; */
+  }
+  span {
+    /* display: none; */
+  }
+  /*--- Conversion Containers ---*/
+  .length-container,
+  .volume-container,
+  .mass-container {
+    /* background-color: #FFF;
+    border-radius: 4px;
+    height: 85px;
+    width: 90%;
+    max-width: 430px;
+    margin: 21px auto 0 auto;
+    text-align: center; */
+  }
+  .converted-title {
+    /* margin-top: 10px;
+    color: #5A537B;
+    font-weight: 600;
+    font-size: 1.05em; */
+  }
+  .converted-length,
+  .converted-volume,
+  .converted-mass {
+    /* margin-top: 5px; */
+  }
+  .meters, .feet,
+  .liters, .gallons,
+  .kilograms, .pounds {
+    /* color: #353535;
+    font-size: 0.88em;
+    font-weight: 400; DELETE because this is the default style
+    line-height: 1.3; */
+  }
+}
