@@ -53,6 +53,7 @@ Current Fonts Weights in use:
   height: 500px;
   max-width: 500px;
   margin: 50px auto 50px auto;
+  border-radius: 6px;
 }
 
 /* --------  Main Container  -------- */
