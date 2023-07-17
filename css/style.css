@@ -1,13 +1,6 @@
-/* _________________________________________________
-// -------------------  PROJECT  -------------------
-// ------------------------------------------------- */
-
-/* NOTES ----> IMPORTANT!*/
-/*
-When project is finished:
-Search DELETE - and delete extra or no-needing rules
-Search font-weight: and leave ONLY the ones needed and in use in html
-*/
+/* ________________________________________________________________
+// -----------    Metric/Imperial Unit Converter CSS    -----------
+// ---------------------------------------------------------------- */
 
 /* --------  Defaults  -------- */
 *,
@@ -39,12 +32,6 @@ div {
 body {
   font-family: 'Inter', sans-serif;
 }
-/* --------  Font Management  -------- 
-Current Fonts Weights in use:
-0
-
-100-900
-*/
 
 
 /* --------  Wrapper  -------- */
@@ -142,6 +129,5 @@ span {
 .kilograms, .pounds {
   color: #353535;
   font-size: 0.88em;
-  font-weight: 400; /*DELETE because this is the default style*/
   line-height: 1.3;
 }
