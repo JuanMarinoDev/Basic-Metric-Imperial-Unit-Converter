@@ -6,10 +6,6 @@ const feetToMeters = document.querySelector('.feet');
 const litersToGallons = document.querySelector('.liters');
 const gallonsToLiters = document.querySelector('.gallons');
 const kilosToPounds = document.querySelector('.kilograms');
-
-
-
-
 const poundsToKilos = document.querySelector('.pounds');
 
 const convert = function() {
@@ -32,24 +28,4 @@ const convert = function() {
     // Conversion 6: Pounds to Kilos
     let poundsToKilosConversion = Math.floor(unit * 0.453592 * 1000) / 1000;
     poundsToKilos.innerHTML = `${unit} pounds = ${poundsToKilosConversion} kilos`;
-
-
-    
-
-
-
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
